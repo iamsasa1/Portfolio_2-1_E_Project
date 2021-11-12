@@ -1,0 +1,141 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+/* Nav-Bar */
+#navbar{
+	background-image: linear-gradient(blue,white);
+}
+
+.nav-link{
+	color: black;
+}
+
+.navbar-brand{
+	color: black;
+}
+
+
+
+/* Home */
+
+.home{
+	background-image: linear-gradient(blue,black);
+}
+	
+.home h1{
+	color: #fff;
+	font-size: 70px;
+	font-weight: bold;
+	margin-top: 12%;
+	letter-spacing: 3px;
+}
+.home p{
+	color: #fff;
+}
+
+.tour-btn{
+	background: transparent;
+	border: 2px solid #fff;
+	color: #fff;
+	width: 140px;
+	height: 40px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	border-radius: 50px;
+}
+.tour-btn:hover{
+	background: blue;
+}
+.home-img img{
+	width: 85%;
+	min-width: 350px;
+	margin-top: 10%;
+	padding-bottom: 20px; 
+}
+
+
+
+/* My Profile */
+
+.lifechanges{
+	padding: 30px 0;
+	background-image: linear-gradient(black,blue);
+}
+ 	
+.lifechanges h1{
+	margin: 60px;
+	color: #fff;
+}
+.li-img{
+	height: 400px;
+}
+.li-img img{
+	width: 100%;
+	height: 100%;
+}
+.li-det{
+	background: #fff;
+	padding: 10px 0 1px;
+	margin-bottom: 15px;
+}
+.profile{
+	padding: 30px 0;
+	background-image: linear-gradient(blue,black);
+}
+.profile-card{
+	border-radius: 10px;
+	background: white;
+	box-shadow: 0 2px 40px 0 rgba(18, 40, 125, 0.18)  
+
+}
+.prf-det{
+	padding: 40px;
+}
+
+.prf-det h3{
+	color: blue;
+}
+
+
+
+/* footer */
+
+.footer{
+	padding: 50px 0 20px;
+	
+	background-image: linear-gradient(black,blue);
+}
+
+.footer h2{
+	color: #fff;
+}
+
+.socialmedia {
+	margin-top: 20px;
+}
+.socialmedia ul{
+	list-style: none;
+}
+.socialmedia ul li{
+	display: inline;
+}
+.socialmedia ul li a{
+	background: #444;
+	color: #fff;
+	margin-left: 5px;
+	padding: 6px;
+	display: inline-block;
+	border-radius: 20px;
+}
+.socialmedia ul li a:hover{
+	background: blue;
+}
+
+.footer p{
+	color: #fff;
+	font-size: 14px;
+	margin-top: 20px;
+}
